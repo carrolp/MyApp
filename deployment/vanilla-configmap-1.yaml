@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: vanilla-cm-1
+  namespace: default
+  labels:
+    razee/watch-resource: lite
+data:
+  info: "vanilla configmap 1"
